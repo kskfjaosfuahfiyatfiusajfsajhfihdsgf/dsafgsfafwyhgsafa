@@ -72,7 +72,7 @@ client.on("guildMemberAdd", function(member) {
 
 
 
-const devs = ['430038396585377793' , '' , '' , ''];
+const devs = ['430038396585377793' , '430038396585377793' , '430038396585377793' , '430038396585377793'];
 const adminprefix = "#";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
