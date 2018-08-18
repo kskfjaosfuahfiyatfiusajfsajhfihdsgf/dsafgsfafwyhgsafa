@@ -47,7 +47,7 @@ client.login(process.env.BOT_TOKEN);
 
 
 client.on("guildMemberAdd", function(member) {
-    const wc = member.guild.channels.find("name", "member-log")
+    const wc = member.guild.channels.find("name", "『الترحيب』")
         const embed = new Discord.RichEmbed()
         .setColor('B90C0C')
         .setAuthor(member.user.tag, member.user.avatarURL)
